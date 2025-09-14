@@ -1,6 +1,6 @@
 import React from 'react';
 import { Outlet } from "react-router-dom";
-import NavBar from './Navbar';
+import NavBar from './NavBar.jsx';
 import Footer from './Footer';
 import LoadingBar from 'react-top-loading-bar';
 import { useSelector, useDispatch } from 'react-redux';
