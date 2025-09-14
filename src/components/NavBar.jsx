@@ -10,7 +10,7 @@ function NavBar() {
     return (
         <Navbar expand="lg" className="bg-body-tertiary">
             <Container>
-                <Navbar.Brand to='/' as={Link}>Readux-Toolkit</Navbar.Brand>
+                <Navbar.Brand to='/' as={Link}>Shopping Cart</Navbar.Brand>
                     <Nav className="me-auto">
                         <Nav.Link to='/' as={Link} >Products</Nav.Link>
                     </Nav>
