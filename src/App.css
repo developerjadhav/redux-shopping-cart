@@ -1,0 +1,36 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Footer css starts */
+.copyright{
+  z-index: 2;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 0.25rem 0;
+  background: rgb(248, 249, 250);
+  font-weight: 300;
+}
+
+.copyright p{
+  margin: 1rem 0;
+}
+
+.copyright img{
+  height: 16px;
+  margin-bottom: 2px;
+  transition: transform 0.5s, margin 0.5s;
+}
+
+.copyright:hover img{
+  margin: 0 30px;
+  filter: invert(10%) sepia(79%) saturate(6644%) hue-rotate(336deg) brightness(116%) contrast(108%);
+  transform: scale(4);
+}
+/* Footer css ends */
